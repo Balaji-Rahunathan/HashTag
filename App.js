@@ -1,114 +1,69 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow
- */
+// /**
+//  * Sample React Native App
+//  * https://github.com/facebook/react-native
+//  *
+//  * @format
+//  * @flow
+//  */
 
-import React, {Fragment} from 'react';
-import {
-  SafeAreaView,
-  StyleSheet,
-  ScrollView,
-  View,
-  Text,
-  StatusBar,
-} from 'react-native';
+import {createStackNavigator,createDrawerNavigator, createSwitchNavigator, createAppContainer,} from 'react-navigation';
+import getSlideFromRightTransition from 'react-navigation-slide-from-right-transition';
+import {Platform} from 'react-native'
+import Splash from "./Screens/Splash"
+import SignIn from "./Screens/SignIn"
+import SignUp from "./Screens/SignUp"
+import Interests from "./Screens/Interests"
+import Newsfeed from "./Screens/Newsfeed"
+import Profile from "./Screens/Profile"
+import Discussions from "./Screens/Discussions"
 
-import {
-  Header,
-  LearnMoreLinks,
-  Colors,
-  DebugInstructions,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
+const AuthStack = createStackNavigator({
+  SignIn,
+  // SignUp
+},
+{
+  defaultNavigationOptions: {
+    headerTintColor:"white"
+  },
+  transitionConfig: getSlideFromRightTransition
+})
 
-const App = () => {
-  return (
-    <Fragment>
-      <StatusBar barStyle="dark-content" />
-      <SafeAreaView>
-        <ScrollView
-          contentInsetAdjustmentBehavior="automatic"
-          style={styles.scrollView}>
-          <Header />
-          {global.HermesInternal == null ? null : (
-            <View style={styles.engine}>
-              <Text style={styles.footer}>Engine: Hermes</Text>
-            </View>
-          )}
-          <View style={styles.body}>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Step One</Text>
-              <Text style={styles.sectionDescription}>
-                Edit <Text style={styles.highlight}>App.js</Text> to change this
-                screen and then come back to see your edits.
-              </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>See Your Changes</Text>
-              <Text style={styles.sectionDescription}>
-                <ReloadInstructions />
-              </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Debug</Text>
-              <Text style={styles.sectionDescription}>
-                <DebugInstructions />
-              </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Learn More</Text>
-              <Text style={styles.sectionDescription}>
-                Read the docs to discover what to do next:
-              </Text>
-            </View>
-            <LearnMoreLinks />
-          </View>
-        </ScrollView>
-      </SafeAreaView>
-    </Fragment>
-  );
-};
+const AppStack = createStackNavigator({
+  SignIn,
+  // Newsfeed,
+  // Profile,
+  // Interests,
+  // Discussions
+},
+{
+  defaultNavigationOptions: {
+    headerTintColor:"white"
+  },
+  transitionConfig: getSlideFromRightTransition,
+  cardStyle: {
+    paddingTop: Platform.OS === 'ios' ? 0 : 20
+  }
+})
 
-const styles = StyleSheet.create({
-  scrollView: {
-    backgroundColor: Colors.lighter,
-  },
-  engine: {
-    position: 'absolute',
-    right: 0,
-  },
-  body: {
-    backgroundColor: Colors.white,
-  },
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
-  },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-    color: Colors.black,
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-    color: Colors.dark,
-  },
-  highlight: {
-    fontWeight: '700',
-  },
-  footer: {
-    color: Colors.dark,
-    fontSize: 12,
-    fontWeight: '600',
-    padding: 4,
-    paddingRight: 12,
-    textAlign: 'right',
-  },
-});
+// const AppDrawer = createDrawerNavigator({
+//   Home:{screen: AppStack}
+// },
+// {
+//   defaultNavigationOptions: {
+//     headerTintColor:"white"
+// },
+//   transitionConfig: getSlideFromRightTransition,
+//   contentComponent:Drawer,  
 
-export default App;
+// })
+
+export default createAppContainer(createSwitchNavigator(
+  {
+   Splash:Splash,
+    Auth:AuthStack,
+   // App:AppDrawer,
+  },
+  {
+    initialRouteName: 'Splash',
+  }
+));
