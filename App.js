@@ -17,7 +17,9 @@ import Newsfeed from "./Screens/Newsfeed"
 import Profile from "./Screens/Profile"
 import Discussions from "./Screens/Discussions"
 
+
 const AuthStack = createStackNavigator({
+  
   SignIn,
   // SignUp
 },

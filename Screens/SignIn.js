@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+import Container from '../Components/Container/Container';
 import {
   StyleSheet,
   Text,
   View
 } from 'react-native';
+import { newExpression } from '@babel/types';
 
 export default class SignIn extends Component {
   static navigationOptions=({navigation}) => ({
@@ -16,20 +18,23 @@ export default class SignIn extends Component {
 
   render() {
     return (
-      <View >
-        <Text style={styles.header}>
-          {this.props.title.toUpperCase()}
+      <Container styles={css.container} >
+        <Text style={css.header}>Tamil News
         </Text>
-      </View>
+        </Container>
     );
   }
 
 }
 
-const styles = StyleSheet.create({
+const css = StyleSheet.create({
+  container: {
+    flex:1,
+  },
   header: {
     fontSize: 40,
     fontWeight: 'bold',
     textAlign: 'center',
+    marginTop:40
   },
 });
