@@ -6,7 +6,10 @@ import {
 } from 'react-native';
 
 export default class SignIn extends Component {
+  static navigationOptions=({navigation}) => ({
+    header:null
 
+  })
   static defaultProps = {
     title: 'Default Header'
   }

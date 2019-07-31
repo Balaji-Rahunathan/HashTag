@@ -37,7 +37,6 @@ const AppStack = createStackNavigator({
 },
 {
   defaultNavigationOptions: {
-    headerTintColor:"white"
   },
   transitionConfig: getSlideFromRightTransition,
   cardStyle: {
