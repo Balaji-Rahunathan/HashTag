@@ -5,7 +5,6 @@ import {
   Text,
   View
 } from 'react-native';
-import { newExpression } from '@babel/types';
 
 export default class SignIn extends Component {
   static navigationOptions=({navigation}) => ({
@@ -36,6 +35,5 @@ const css = StyleSheet.create({
     fontWeight: 'bold',
     textAlign: 'center',
     marginTop:40,
-    
   },
 });

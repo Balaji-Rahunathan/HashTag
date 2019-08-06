@@ -3,11 +3,16 @@ import React from 'react';
 import {View,StatusBar,Keyboard,Platform,DeviceInfo,StyleSheet,ActivityIndicator} from 'react-native';
 import { TouchableWithoutFeedback } from 'react-native-gesture-handler';
 import {Height, Width} from '../Constants/Constants';
+import Loading from '../Loading';
+import ErrorPage from '../ErrorPage';
 
 
 
 
-const Container = ({children,styles,center,loading}) => {
+
+
+const Container = ({children,styles,loading,error}) => {
+    if (error){
 return (
     <View style={[css.Container,styles]}
           onPress={Keyboard.dismiss}>
@@ -15,16 +20,37 @@ return (
                      backgroundColor="grey"
                      translucent={true}>
                     </StatusBar>
-                    {children}
+                    <ErrorPage />
               </View>
-    );
+)
+    }
+    if(loading) {
+    return (
+        <View style={[css.Container,styles]}
+              onPress={Keyboard.dismiss}>
+              <StatusBar barStyle={"light-content"}
+                         backgroundColor="grey"
+                         translucent={true}>
+                        </StatusBar>
+                        <Loading />
+                  </View>
+    )
+    }
+    return (
+        <View style={[css.Container,styles]}
+              onPress={Keyboard.dismiss}>
+              <StatusBar barStyle={"light-content"}
+                         backgroundColor="grey"
+                         translucent={true}>
+                        </StatusBar>
+                        {children}
+                  </View>
+    )
 };
 
     Container.propTypes = {
         children: PropTypes.any,
         styles: PropTypes.any,
-        center: PropTypes.bool,
-        activity: PropTypes.bool
     }
 
     const css = StyleSheet.create({
