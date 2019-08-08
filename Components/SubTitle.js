@@ -5,7 +5,8 @@ export default class SubTitle extends Component {
     render() {
         return (
             <View>
-                <Text style ={css.title}> { this.props.name }  </Text>
+                <Text style ={css.title}> { this.props.name } 
+                 </Text>
             </View>
         )
     }
@@ -13,9 +14,8 @@ export default class SubTitle extends Component {
 const css = StyleSheet.create({
     title:{
         fontSize: 25,
-        fontWeight: 'bold',
         textAlign: 'left',
         color:'white',
-        paddingLeft:13
+        paddingLeft:12
     }
 })

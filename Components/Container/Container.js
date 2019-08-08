@@ -66,7 +66,7 @@ return (
         Container:{
             flex:1,
             justifyContent:"flex-start",
-            backgroundColor: 'pink',
+            backgroundColor: 'black',
             marginTop:Platform.OS=="android"?0:DeviceInfo.isIPhoneX_deprecated?Header.HEIGHT+29:Header.HEIGHT+5,
         },
     });

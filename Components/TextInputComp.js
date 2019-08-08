@@ -7,8 +7,8 @@ export default class TextInputComp extends Component {
             <View>
             <TextInput 
             style={css.input} 
-            placeholder=" "  
-            placeholderTextColor="black"
+            placeholder={this.props.name} 
+            placeholderTextColor="white"
             autoCapitalize = {"none"}
             autoCorrect = {false}
             spellCheck = {false}></TextInput>
@@ -20,7 +20,7 @@ export default class TextInputComp extends Component {
 const css = StyleSheet.create({
     input:{
         height:55,
-        width:'50%',
+        width:'70%',
         borderColor:'gray',
         borderWidth:2,
         borderRadius:10,

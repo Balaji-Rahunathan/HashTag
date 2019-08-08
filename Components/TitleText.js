@@ -5,7 +5,8 @@ export default class TitleText extends Component {
     render() {
         return (
             <View>
-                <Text style ={css.title}> { this.props.name }  </Text>
+                <Text style ={css.title}> { this.props.name }  
+                </Text>
             </View>
         )
     }
@@ -15,7 +16,7 @@ const css = StyleSheet.create({
         fontSize: 35,
         fontWeight: 'bold',
         textAlign: 'left',
-        color:'red',
+        color:'white',
         paddingLeft:10
     }
 })
