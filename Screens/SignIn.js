@@ -29,7 +29,8 @@ export default class SignIn extends Component {
       <Container styles={css.container} >
         <Text style={css.header}>Tamil News
         </Text>
-        <TextInputComp name="Seetha"></TextInputComp>
+        <TextInputComp name=" "></TextInputComp>
+        <TextInputComp name="lakshmi"></TextInputComp>
         <TitleText name="Interests"></TitleText>
         <SubTitle name= "Choose your interest"></SubTitle>
         <ContentHeading name="Today Head Lines ghjjk fkkglll gjitkl jkllll kooll kkll rrr w g y  kkl"></ContentHeading>
