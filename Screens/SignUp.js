@@ -6,8 +6,10 @@ import {
   StyleSheet,
   Text,
   View,
-  Image
+  Image,
 } from 'react-native';
+import { TouchableOpacity } from 'react-native-gesture-handler';
+import console = require('console');
 export default class SignIn extends Component {
     static navigationOptions=({navigation}) => ({
       header:null
@@ -18,6 +20,7 @@ export default class SignIn extends Component {
     }
   
     render() {
+      console.log 
       return (
         <Container styles={css.container} >
         <View style={css.logoView}>
@@ -30,7 +33,7 @@ export default class SignIn extends Component {
         <TextInputComp name="Password"></TextInputComp>
         </View>
         <View style={css.footerView}>
-        <FooterComp name ="SIGNUP">
+        <FooterComp name ="SIGNUP" onPress ={()=>this.props.navigation.navigate("SignIn")}>
         </FooterComp>
 
         </View>
