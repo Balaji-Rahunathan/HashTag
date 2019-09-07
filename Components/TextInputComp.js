@@ -20,12 +20,14 @@ export default class TextInputComp extends Component {
 const css = StyleSheet.create({
     input:{
         height:55,
-        width:'70%',
+        width:250,
         borderWidth:2,
-        borderRadius:10,
+        borderRadius:15,
         backgroundColor: 'dimgrey',
         color: 'white',
         fontSize:20,
-        textAlign:'center'
+        textAlign:'center',
+        margin:10
+        
     }
 });

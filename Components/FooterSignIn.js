@@ -25,7 +25,7 @@ export default class FooterComp extends Component {
 
 const css = StyleSheet.create ({
         footerPart:{
-        flex:0.6,
+        flex:0.3,
         backgroundColor:'silver',
         // padding:10,
         // color:'white',
@@ -54,7 +54,7 @@ const css = StyleSheet.create ({
         image:{
              width:20,
              height:20,
-             marginBottom:16,
+             marginBottom:15,
              marginRight:20
         }
 })

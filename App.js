@@ -19,8 +19,8 @@ import Discussions from "./Screens/Discussions"
 
 
 const AuthStack = createStackNavigator({
-  
-  SignIn,
+  // SignIn,
+  SignUp,
   // SignUp
 },
 {
@@ -31,7 +31,8 @@ const AuthStack = createStackNavigator({
 })
 
 const AppStack = createStackNavigator({
-  SignIn,
+  // SignIn,
+  SignUp,
   // Newsfeed,
   // Profile,
   // Interests,

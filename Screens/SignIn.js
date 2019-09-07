@@ -5,55 +5,70 @@ import FooterComp from '../Components/FooterComp';
 import {
   StyleSheet,
   Text,
-  View
+  View,
+  Image
 } from 'react-native';
-import TitleText from '../Components/TitleText';
-
-import SubTitle from '../Components/SubTitle';
-import ContentHeading from '../Components/ContentHeading';
-import Content from '../Components/Content';
-
-
-
 export default class SignIn extends Component {
-  static navigationOptions=({navigation}) => ({
-    header:null
+    static navigationOptions=({navigation}) => ({
+      header:null
+  
+    })
+    static defaultProps = {
+      title: 'Default Header'
+    }
+  
+    render() {
+      return (
+        <Container styles={css.container} >
+        <View style={css.logoView}>
+        <Image style={css.logo} 
+        source={require('../assets/icons/TN.jpg')}/>
+        </View>
+        <View style ={css.buttonView}>
+        <TextInputComp name="Username"></TextInputComp>
+        <TextInputComp name="Password"></TextInputComp>
+        </View>
+        <View style={css.footerView}>
+        <FooterComp name ="LOGIN">
+        </FooterComp>
 
-  })
-  static defaultProps = {
-    title: 'Default Header'
+        </View>
+
+
+      </Container>
+        );
+    }
+  
   }
 
-  render() {
-    return (
-      <Container styles={css.container} >
-        <Text style={css.header}>Tamil News
-        </Text>
-        <TextInputComp name=" "></TextInputComp>
-        <TextInputComp name="lakshmi"></TextInputComp>
-        <TitleText name="Interests"></TitleText>
-        <SubTitle name= "Choose your interest"></SubTitle>
-        <ContentHeading name="Today Head Lines ghjjk fkkglll gjitkl jkllll kooll kkll rrr w g y  kkl"></ContentHeading>
-        <Content name ="tyu rjkgo fmfkofg llpp ekkoop kkoogg gkko roopg kprodjyiok njj qwe kk ds kkl kkl kll wwe ujh ikr ppppp wklg gigkjfk ">
-        </Content>
-        <FooterComp name= "SIGNUP"></FooterComp>
+  const css = StyleSheet.create({
+    container: {
+      flex:1,
+      backgroundColor:'black'
+    },
+    logoView:{
+        // backgroundColor:'green',
+        flex:0.4,
+        justifyContent:'flex-end',
+        alignItems:'center'
+    },
+    logo:{
+        height:150,
+        width:150,
+    },
+    buttonView:{
+        flex:0.5,
+        // margin:40,
+        // backgroundColor:'yellow',
+        justifyContent:'center',
+        alignItems:'center'
+    },
+    footerView:{
+        flex:0.2,
+        // backgroundColor:'orange',
+        justifyContent:'flex-end',
+    }
 
-        </Container>
-        
-    );
-  }
-
-}
-
-const css = StyleSheet.create({
-  container: {
-    flex:1,
-  },
-  header: {
-    fontSize: 40,
-    fontWeight: 'bold',
-    textAlign: 'center',
-    marginTop:40,
-    color:'deeppink'
-  },
-});
+})
+  
+  
