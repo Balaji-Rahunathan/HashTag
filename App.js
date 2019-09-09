@@ -20,8 +20,11 @@ import Discussions from "./Screens/Discussions"
 
 const AuthStack = createStackNavigator({
   SignUp,
-  SignIn,
 
+  Splash,
+
+  SignIn,
+  Profile,
   // SignUp
 },
 {
@@ -33,7 +36,12 @@ const AuthStack = createStackNavigator({
 
 const AppStack = createStackNavigator({
   SignUp,
+
+  Splash,
+
   SignIn,
+
+  Profile,
 
   // Newsfeed,
   // Profile,
@@ -63,7 +71,7 @@ const AppStack = createStackNavigator({
 
 export default createAppContainer(createSwitchNavigator(
   {
-   Splash:Splash,
+    Splash:Splash,
     Auth:AuthStack,
    // App:AppDrawer,
   },

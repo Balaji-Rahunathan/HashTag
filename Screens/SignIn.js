@@ -29,7 +29,7 @@ export default class SignIn extends Component {
         <TextInputComp name="Password"></TextInputComp>
         </View>
         <View style={css.footerView}>
-        <FooterComp name ="LOGIN">
+        <FooterComp name ="LOGIN" onPress ={()=>this.props.navigation.navigate("SignUp")}>>
         </FooterComp>
 
         </View>

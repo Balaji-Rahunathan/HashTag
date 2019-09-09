@@ -9,8 +9,8 @@ import {
   Image,
 } from 'react-native';
 import { TouchableOpacity } from 'react-native-gesture-handler';
-import console = require('console');
-export default class SignIn extends Component {
+// import console = require('console');
+export default class SignUp extends Component {
     static navigationOptions=({navigation}) => ({
       header:null
   
@@ -19,8 +19,8 @@ export default class SignIn extends Component {
       title: 'Default Header'
     }
   
+  
     render() {
-      console.log 
       return (
         <Container styles={css.container} >
         <View style={css.logoView}>
