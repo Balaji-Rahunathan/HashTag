@@ -4,10 +4,8 @@ import { Text,TextInput,View,StyleSheet } from 'react-native';
 export default class TitleText extends Component {
     render() {
         return (
-            <View>
                 <Text style ={css.title}> { this.props.name }  
                 </Text>
-            </View>
         )
     }
 }
@@ -17,7 +15,6 @@ const css = StyleSheet.create({
         fontWeight: 'bold',
         textAlign: 'left',
         color:'white',
-        paddingLeft:10
     }
 })
 

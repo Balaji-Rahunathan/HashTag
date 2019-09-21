@@ -5,10 +5,7 @@ import { TouchableWithoutFeedback } from 'react-native-gesture-handler';
 import {Height, Width} from '../Constants/Constants';
 import Loading from '../Loading';
 import ErrorPage from '../ErrorPage';
-
-
-
-
+import {Header} from "react-navigation"
 
 
 const Container = ({children,styles,loading,error}) => {
@@ -54,20 +51,10 @@ return (
     }
 
     const css = StyleSheet.create({
-        // containerCenter:{
-        //     flex:1,
-        //     alignItems: 'center',
-        //     justifyContent: 'center',
-        //     backgroundColor: 'white',
-        //     paddingTop:Platform.OS=="ios"?0:20,
-        //     width:Width,
-        //     height:Height,
-        // },
         Container:{
             flex:1,
             justifyContent:"flex-start",
             backgroundColor: 'black',
-            marginTop:Platform.OS=="android"?0:DeviceInfo.isIPhoneX_deprecated?Header.HEIGHT+29:Header.HEIGHT+5,
         },
     });
 

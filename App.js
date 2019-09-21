@@ -19,13 +19,8 @@ import Discussions from "./Screens/Discussions"
 
 
 const AuthStack = createStackNavigator({
-  SignUp,
-
-  Splash,
-
   SignIn,
-  Profile,
-  // SignUp
+  SignUp,
 },
 {
   defaultNavigationOptions: {
@@ -35,14 +30,7 @@ const AuthStack = createStackNavigator({
 })
 
 const AppStack = createStackNavigator({
-  SignUp,
-
-  Splash,
-
-  SignIn,
-
   Profile,
-
   // Newsfeed,
   // Profile,
   // Interests,
@@ -57,23 +45,11 @@ const AppStack = createStackNavigator({
   }
 })
 
-// const AppDrawer = createDrawerNavigator({
-//   Home:{screen: AppStack}
-// },
-// {
-//   defaultNavigationOptions: {
-//     headerTintColor:"white"
-// },
-//   transitionConfig: getSlideFromRightTransition,
-//   contentComponent:Drawer,  
-
-// })
-
 export default createAppContainer(createSwitchNavigator(
   {
     Splash:Splash,
     Auth:AuthStack,
-   // App:AppDrawer,
+    App:AppStack
   },
   {
     initialRouteName: 'Splash',

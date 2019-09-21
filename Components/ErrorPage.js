@@ -23,16 +23,7 @@ export default class ErrorPage extends Component {
                                   padding:30,
                                   justifyContent:"center",
                                   alignItems:"center",
-                                  // fontSize:80,
                                   }}> 
-                        {/* <CircleButtonWithIcon styles={{tintColor:"black",}} onPress={this.props.onPress}/>
-                        <Text style={{fontSize:20,
-                                    fontFamily:"SourceSansPro-Regular",
-                                    padding:20,
-                                    color:"gray",
-                                    zIndex:100,
-                                    padding:20,
-                                    backgroundColor:"transparent"}}> */}
                         <Text style={css.buttonText}>Tap to Retry
                       </Text> 
                     </View> 

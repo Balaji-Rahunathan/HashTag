@@ -4,30 +4,28 @@ import { StyleSheet, View,TextInput } from 'react-native';
 export default class TextInputComp extends Component {
     render() {
         return (
-            <View>
             <TextInput 
-            style={css.input} 
+            style={[css.input,this.props.styles]} 
             placeholder={this.props.name} 
             placeholderTextColor="white"
             autoCapitalize = {"none"}
             autoCorrect = {false}
-            spellCheck = {false}></TextInput>
-</View>
+            spellCheck = {false}>
+            </TextInput>
+
         );
     }
 }
 
 const css = StyleSheet.create({
     input:{
-        height:55,
+        height:50,
         width:250,
-        borderWidth:2,
-        borderRadius:15,
-        backgroundColor: 'dimgrey',
+        borderRadius:10,
+        backgroundColor: '#2E2E37',
         color: 'white',
-        fontSize:20,
+        fontSize:17,
         textAlign:'center',
-        margin:10
-        
+        margin:20
     }
 });

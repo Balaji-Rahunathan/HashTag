@@ -5,38 +5,39 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* TamilNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TamilNewsTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		16C24C51F43543ED8E6EAF0E /* SF-Pro-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 006ED84E6E71434E946184BA /* SF-Pro-Display-Medium.otf */; };
+		1FA4B8F1D71B44AEAFF1C945 /* SF-Pro-Display-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D66B08527AD441D6B4EA1BAD /* SF-Pro-Display-LightItalic.otf */; };
 		26636E09C35B09C760B74319 /* libPods-TamilNewsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 166EA76D3422ADFACD9882E6 /* libPods-TamilNewsTests.a */; };
+		27A99B2E3DA547E4876C4771 /* SF-Pro-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1E8011D2D82D475CB66DCF6E /* SF-Pro-Display-Light.otf */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* TamilNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TamilNewsTests.m */; };
 		31B5D6136F6ABA5BB7DD366E /* libPods-TamilNews-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 870D2750B2D270485EB980DF /* libPods-TamilNews-tvOSTests.a */; };
 		4C0FA1ED77AC3A90BDF283B8 /* libPods-TamilNews-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 226EBF18E6051F848ED3CC00 /* libPods-TamilNews-tvOS.a */; };
-		949E75310AF8C07493F4E720 /* libPods-TamilNews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D86025A3385FEB69A4973642 /* libPods-TamilNews.a */; };
-		B96C1F3ACE914A1E989A93AF /* SF-Pro-Display-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = A71260A3B86B4E30833DDDC2 /* SF-Pro-Display-Black.otf */; };
-		9FC8CF79B8D541AD9AAD5346 /* SF-Pro-Display-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8DCFDB6507E34CC59E3245A3 /* SF-Pro-Display-BlackItalic.otf */; };
-		52F7F99DDB1747B5AE8F7E30 /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8F316E791ED64546A6A91C43 /* SF-Pro-Display-Bold.otf */; };
 		4E31FE85B7FE4104863D2310 /* SF-Pro-Display-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1DD72EB57E894D22BA0B2F9D /* SF-Pro-Display-BoldItalic.otf */; };
-		96EAE8413F8A42E2A2EB02CC /* SF-Pro-Display-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = B1DDEBFEA9CD41DE9AD579B0 /* SF-Pro-Display-Heavy.otf */; };
-		BA67F586F8EF4A0B8819E912 /* SF-Pro-Display-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4047C2F2B31544D793A074E9 /* SF-Pro-Display-HeavyItalic.otf */; };
-		27A99B2E3DA547E4876C4771 /* SF-Pro-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1E8011D2D82D475CB66DCF6E /* SF-Pro-Display-Light.otf */; };
-		1FA4B8F1D71B44AEAFF1C945 /* SF-Pro-Display-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D66B08527AD441D6B4EA1BAD /* SF-Pro-Display-LightItalic.otf */; };
-		16C24C51F43543ED8E6EAF0E /* SF-Pro-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 006ED84E6E71434E946184BA /* SF-Pro-Display-Medium.otf */; };
+		52F7F99DDB1747B5AE8F7E30 /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8F316E791ED64546A6A91C43 /* SF-Pro-Display-Bold.otf */; };
 		74A64D17CB8C40B1A7C6C5AC /* SF-Pro-Display-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 74FFEC8CC4B94CCFB9D525F5 /* SF-Pro-Display-MediumItalic.otf */; };
 		7C682C1D8FA24AF399018A74 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 821B5A8DC862428FA9B3D026 /* SF-Pro-Display-Regular.otf */; };
+		7CB51FB7A5DC4BA5A49BEFAB /* SF-Pro-Display-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7E0086EFCD18423AA481315F /* SF-Pro-Display-Ultralight.otf */; };
+		949E75310AF8C07493F4E720 /* libPods-TamilNews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D86025A3385FEB69A4973642 /* libPods-TamilNews.a */; };
+		96EAE8413F8A42E2A2EB02CC /* SF-Pro-Display-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = B1DDEBFEA9CD41DE9AD579B0 /* SF-Pro-Display-Heavy.otf */; };
 		99A1603D36874702BA3CF694 /* SF-Pro-Display-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = CCFBEE222DDF4885B6E64FE8 /* SF-Pro-Display-RegularItalic.otf */; };
+		9FC8CF79B8D541AD9AAD5346 /* SF-Pro-Display-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8DCFDB6507E34CC59E3245A3 /* SF-Pro-Display-BlackItalic.otf */; };
+		A6A976875925496CB34BBE9B /* SF-Pro-Display-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D42EA64C8A904497AFC36327 /* SF-Pro-Display-ThinItalic.otf */; };
+		B20D9F29FA0E478B8B5DD8CE /* SF-Pro-Display-UltralightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 50911FDBE0DF42DD8261FABB /* SF-Pro-Display-UltralightItalic.otf */; };
+		B96C1F3ACE914A1E989A93AF /* SF-Pro-Display-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = A71260A3B86B4E30833DDDC2 /* SF-Pro-Display-Black.otf */; };
+		BA67F586F8EF4A0B8819E912 /* SF-Pro-Display-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4047C2F2B31544D793A074E9 /* SF-Pro-Display-HeavyItalic.otf */; };
+		BC067AD4CB84457FA57F1628 /* SF-Pro-Display-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 64E0BB0AD8554E3CB0F04363 /* SF-Pro-Display-Thin.otf */; };
 		C94D70EE24B94385B3882492 /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FEBA5CD57C1145CEA1EC30CC /* SF-Pro-Display-Semibold.otf */; };
 		D8510E9B70C5419A95EFCC7C /* SF-Pro-Display-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0809AFF5FCE54D3F804D74CB /* SF-Pro-Display-SemiboldItalic.otf */; };
-		BC067AD4CB84457FA57F1628 /* SF-Pro-Display-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 64E0BB0AD8554E3CB0F04363 /* SF-Pro-Display-Thin.otf */; };
-		A6A976875925496CB34BBE9B /* SF-Pro-Display-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D42EA64C8A904497AFC36327 /* SF-Pro-Display-ThinItalic.otf */; };
-		7CB51FB7A5DC4BA5A49BEFAB /* SF-Pro-Display-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7E0086EFCD18423AA481315F /* SF-Pro-Display-Ultralight.otf */; };
-		B20D9F29FA0E478B8B5DD8CE /* SF-Pro-Display-UltralightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 50911FDBE0DF42DD8261FABB /* SF-Pro-Display-UltralightItalic.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,10 +58,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		006ED84E6E71434E946184BA /* SF-Pro-Display-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Medium.otf"; path = "../assets/fonts/SF-Pro-Display-Medium.otf"; sourceTree = "<group>"; };
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* TamilNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TamilNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* TamilNewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TamilNewsTests.m; sourceTree = "<group>"; };
+		0809AFF5FCE54D3F804D74CB /* SF-Pro-Display-SemiboldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-SemiboldItalic.otf"; path = "../assets/fonts/SF-Pro-Display-SemiboldItalic.otf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* TamilNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TamilNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = TamilNews/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = TamilNews/AppDelegate.m; sourceTree = "<group>"; };
@@ -69,39 +72,37 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TamilNews/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TamilNews/main.m; sourceTree = "<group>"; };
 		166EA76D3422ADFACD9882E6 /* libPods-TamilNewsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TamilNewsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DD72EB57E894D22BA0B2F9D /* SF-Pro-Display-BoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-BoldItalic.otf"; path = "../assets/fonts/SF-Pro-Display-BoldItalic.otf"; sourceTree = "<group>"; };
+		1E8011D2D82D475CB66DCF6E /* SF-Pro-Display-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Light.otf"; path = "../assets/fonts/SF-Pro-Display-Light.otf"; sourceTree = "<group>"; };
 		226EBF18E6051F848ED3CC00 /* libPods-TamilNews-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TamilNews-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		252DD9486688D9E2DBD24F07 /* Pods-TamilNews-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TamilNews-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TamilNews-tvOSTests/Pods-TamilNews-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* TamilNews-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TamilNews-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* TamilNews-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TamilNews-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31D62AF1BE368989CD6F5815 /* Pods-TamilNews-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TamilNews-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-TamilNews-tvOS/Pods-TamilNews-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		4047C2F2B31544D793A074E9 /* SF-Pro-Display-HeavyItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-HeavyItalic.otf"; path = "../assets/fonts/SF-Pro-Display-HeavyItalic.otf"; sourceTree = "<group>"; };
 		46C1AACAB6825855308071FC /* Pods-TamilNews-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TamilNews-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TamilNews-tvOSTests/Pods-TamilNews-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		50911FDBE0DF42DD8261FABB /* SF-Pro-Display-UltralightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-UltralightItalic.otf"; path = "../assets/fonts/SF-Pro-Display-UltralightItalic.otf"; sourceTree = "<group>"; };
 		637D3C1FF1800EB8CA12DD72 /* Pods-TamilNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TamilNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-TamilNews/Pods-TamilNews.release.xcconfig"; sourceTree = "<group>"; };
+		64E0BB0AD8554E3CB0F04363 /* SF-Pro-Display-Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Thin.otf"; path = "../assets/fonts/SF-Pro-Display-Thin.otf"; sourceTree = "<group>"; };
+		74FFEC8CC4B94CCFB9D525F5 /* SF-Pro-Display-MediumItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-MediumItalic.otf"; path = "../assets/fonts/SF-Pro-Display-MediumItalic.otf"; sourceTree = "<group>"; };
+		7E0086EFCD18423AA481315F /* SF-Pro-Display-Ultralight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Ultralight.otf"; path = "../assets/fonts/SF-Pro-Display-Ultralight.otf"; sourceTree = "<group>"; };
 		80366DFC2837928A1A3FBDD2 /* Pods-TamilNews-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TamilNews-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TamilNews-tvOS/Pods-TamilNews-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		821B5A8DC862428FA9B3D026 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Regular.otf"; path = "../assets/fonts/SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
 		870D2750B2D270485EB980DF /* libPods-TamilNews-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TamilNews-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DCFDB6507E34CC59E3245A3 /* SF-Pro-Display-BlackItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-BlackItalic.otf"; path = "../assets/fonts/SF-Pro-Display-BlackItalic.otf"; sourceTree = "<group>"; };
+		8F316E791ED64546A6A91C43 /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Bold.otf"; path = "../assets/fonts/SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
 		94543AEB3B510542A36DA6BE /* Pods-TamilNewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TamilNewsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TamilNewsTests/Pods-TamilNewsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A71260A3B86B4E30833DDDC2 /* SF-Pro-Display-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Black.otf"; path = "../assets/fonts/SF-Pro-Display-Black.otf"; sourceTree = "<group>"; };
+		B1DDEBFEA9CD41DE9AD579B0 /* SF-Pro-Display-Heavy.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Heavy.otf"; path = "../assets/fonts/SF-Pro-Display-Heavy.otf"; sourceTree = "<group>"; };
 		C431902EC7AA3EA31BA3B05C /* Pods-TamilNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TamilNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TamilNews/Pods-TamilNews.debug.xcconfig"; sourceTree = "<group>"; };
+		CCFBEE222DDF4885B6E64FE8 /* SF-Pro-Display-RegularItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-RegularItalic.otf"; path = "../assets/fonts/SF-Pro-Display-RegularItalic.otf"; sourceTree = "<group>"; };
+		D42EA64C8A904497AFC36327 /* SF-Pro-Display-ThinItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-ThinItalic.otf"; path = "../assets/fonts/SF-Pro-Display-ThinItalic.otf"; sourceTree = "<group>"; };
+		D66B08527AD441D6B4EA1BAD /* SF-Pro-Display-LightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-LightItalic.otf"; path = "../assets/fonts/SF-Pro-Display-LightItalic.otf"; sourceTree = "<group>"; };
 		D86025A3385FEB69A4973642 /* libPods-TamilNews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TamilNews.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBDB6CC607DC3D97BB731A2F /* Pods-TamilNewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TamilNewsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TamilNewsTests/Pods-TamilNewsTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		A71260A3B86B4E30833DDDC2 /* SF-Pro-Display-Black.otf */ = {isa = PBXFileReference; name = "SF-Pro-Display-Black.otf"; path = "../assets/fonts/SF-Pro-Display-Black.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		8DCFDB6507E34CC59E3245A3 /* SF-Pro-Display-BlackItalic.otf */ = {isa = PBXFileReference; name = "SF-Pro-Display-BlackItalic.otf"; path = "../assets/fonts/SF-Pro-Display-BlackItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		8F316E791ED64546A6A91C43 /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; name = "SF-Pro-Display-Bold.otf"; path = "../assets/fonts/SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		1DD72EB57E894D22BA0B2F9D /* SF-Pro-Display-BoldItalic.otf */ = {isa = PBXFileReference; name = "SF-Pro-Display-BoldItalic.otf"; path = "../assets/fonts/SF-Pro-Display-BoldItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B1DDEBFEA9CD41DE9AD579B0 /* SF-Pro-Display-Heavy.otf */ = {isa = PBXFileReference; name = "SF-Pro-Display-Heavy.otf"; path = "../assets/fonts/SF-Pro-Display-Heavy.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		4047C2F2B31544D793A074E9 /* SF-Pro-Display-HeavyItalic.otf */ = {isa = PBXFileReference; name = "SF-Pro-Display-HeavyItalic.otf"; path = "../assets/fonts/SF-Pro-Display-HeavyItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		1E8011D2D82D475CB66DCF6E /* SF-Pro-Display-Light.otf */ = {isa = PBXFileReference; name = "SF-Pro-Display-Light.otf"; path = "../assets/fonts/SF-Pro-Display-Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D66B08527AD441D6B4EA1BAD /* SF-Pro-Display-LightItalic.otf */ = {isa = PBXFileReference; name = "SF-Pro-Display-LightItalic.otf"; path = "../assets/fonts/SF-Pro-Display-LightItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		006ED84E6E71434E946184BA /* SF-Pro-Display-Medium.otf */ = {isa = PBXFileReference; name = "SF-Pro-Display-Medium.otf"; path = "../assets/fonts/SF-Pro-Display-Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		74FFEC8CC4B94CCFB9D525F5 /* SF-Pro-Display-MediumItalic.otf */ = {isa = PBXFileReference; name = "SF-Pro-Display-MediumItalic.otf"; path = "../assets/fonts/SF-Pro-Display-MediumItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		821B5A8DC862428FA9B3D026 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; name = "SF-Pro-Display-Regular.otf"; path = "../assets/fonts/SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		CCFBEE222DDF4885B6E64FE8 /* SF-Pro-Display-RegularItalic.otf */ = {isa = PBXFileReference; name = "SF-Pro-Display-RegularItalic.otf"; path = "../assets/fonts/SF-Pro-Display-RegularItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		FEBA5CD57C1145CEA1EC30CC /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; name = "SF-Pro-Display-Semibold.otf"; path = "../assets/fonts/SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0809AFF5FCE54D3F804D74CB /* SF-Pro-Display-SemiboldItalic.otf */ = {isa = PBXFileReference; name = "SF-Pro-Display-SemiboldItalic.otf"; path = "../assets/fonts/SF-Pro-Display-SemiboldItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		64E0BB0AD8554E3CB0F04363 /* SF-Pro-Display-Thin.otf */ = {isa = PBXFileReference; name = "SF-Pro-Display-Thin.otf"; path = "../assets/fonts/SF-Pro-Display-Thin.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D42EA64C8A904497AFC36327 /* SF-Pro-Display-ThinItalic.otf */ = {isa = PBXFileReference; name = "SF-Pro-Display-ThinItalic.otf"; path = "../assets/fonts/SF-Pro-Display-ThinItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7E0086EFCD18423AA481315F /* SF-Pro-Display-Ultralight.otf */ = {isa = PBXFileReference; name = "SF-Pro-Display-Ultralight.otf"; path = "../assets/fonts/SF-Pro-Display-Ultralight.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		50911FDBE0DF42DD8261FABB /* SF-Pro-Display-UltralightItalic.otf */ = {isa = PBXFileReference; name = "SF-Pro-Display-UltralightItalic.otf"; path = "../assets/fonts/SF-Pro-Display-UltralightItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FEBA5CD57C1145CEA1EC30CC /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Semibold.otf"; path = "../assets/fonts/SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +172,31 @@
 			name = TamilNews;
 			sourceTree = "<group>";
 		};
+		280746C4ABA44EDBB1280357 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A71260A3B86B4E30833DDDC2 /* SF-Pro-Display-Black.otf */,
+				8DCFDB6507E34CC59E3245A3 /* SF-Pro-Display-BlackItalic.otf */,
+				8F316E791ED64546A6A91C43 /* SF-Pro-Display-Bold.otf */,
+				1DD72EB57E894D22BA0B2F9D /* SF-Pro-Display-BoldItalic.otf */,
+				B1DDEBFEA9CD41DE9AD579B0 /* SF-Pro-Display-Heavy.otf */,
+				4047C2F2B31544D793A074E9 /* SF-Pro-Display-HeavyItalic.otf */,
+				1E8011D2D82D475CB66DCF6E /* SF-Pro-Display-Light.otf */,
+				D66B08527AD441D6B4EA1BAD /* SF-Pro-Display-LightItalic.otf */,
+				006ED84E6E71434E946184BA /* SF-Pro-Display-Medium.otf */,
+				74FFEC8CC4B94CCFB9D525F5 /* SF-Pro-Display-MediumItalic.otf */,
+				821B5A8DC862428FA9B3D026 /* SF-Pro-Display-Regular.otf */,
+				CCFBEE222DDF4885B6E64FE8 /* SF-Pro-Display-RegularItalic.otf */,
+				FEBA5CD57C1145CEA1EC30CC /* SF-Pro-Display-Semibold.otf */,
+				0809AFF5FCE54D3F804D74CB /* SF-Pro-Display-SemiboldItalic.otf */,
+				64E0BB0AD8554E3CB0F04363 /* SF-Pro-Display-Thin.otf */,
+				D42EA64C8A904497AFC36327 /* SF-Pro-Display-ThinItalic.otf */,
+				7E0086EFCD18423AA481315F /* SF-Pro-Display-Ultralight.otf */,
+				50911FDBE0DF42DD8261FABB /* SF-Pro-Display-UltralightItalic.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -232,32 +258,6 @@
 			);
 			name = Pods;
 			sourceTree = "<group>";
-		};
-		280746C4ABA44EDBB1280357 /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				A71260A3B86B4E30833DDDC2 /* SF-Pro-Display-Black.otf */,
-				8DCFDB6507E34CC59E3245A3 /* SF-Pro-Display-BlackItalic.otf */,
-				8F316E791ED64546A6A91C43 /* SF-Pro-Display-Bold.otf */,
-				1DD72EB57E894D22BA0B2F9D /* SF-Pro-Display-BoldItalic.otf */,
-				B1DDEBFEA9CD41DE9AD579B0 /* SF-Pro-Display-Heavy.otf */,
-				4047C2F2B31544D793A074E9 /* SF-Pro-Display-HeavyItalic.otf */,
-				1E8011D2D82D475CB66DCF6E /* SF-Pro-Display-Light.otf */,
-				D66B08527AD441D6B4EA1BAD /* SF-Pro-Display-LightItalic.otf */,
-				006ED84E6E71434E946184BA /* SF-Pro-Display-Medium.otf */,
-				74FFEC8CC4B94CCFB9D525F5 /* SF-Pro-Display-MediumItalic.otf */,
-				821B5A8DC862428FA9B3D026 /* SF-Pro-Display-Regular.otf */,
-				CCFBEE222DDF4885B6E64FE8 /* SF-Pro-Display-RegularItalic.otf */,
-				FEBA5CD57C1145CEA1EC30CC /* SF-Pro-Display-Semibold.otf */,
-				0809AFF5FCE54D3F804D74CB /* SF-Pro-Display-SemiboldItalic.otf */,
-				64E0BB0AD8554E3CB0F04363 /* SF-Pro-Display-Thin.otf */,
-				D42EA64C8A904497AFC36327 /* SF-Pro-Display-ThinItalic.otf */,
-				7E0086EFCD18423AA481315F /* SF-Pro-Display-Ultralight.otf */,
-				50911FDBE0DF42DD8261FABB /* SF-Pro-Display-UltralightItalic.otf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -355,6 +355,11 @@
 					};
 					13B07F861A680F5B00A75B9A = {
 						DevelopmentTeam = 7UZX67X32S;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
