@@ -34,7 +34,7 @@ export default class SignUp extends Component {
           <TextInputComp name="Password"></TextInputComp>
         </View>
         <View style={css.footerView}>
-          <FooterComp  name="SIGNUP" onPress={() => this.props.navigation.navigate("SignIn")}>
+          <FooterComp  name="SIGNUP" onPress={() => this.props.navigation.navigate("Profile")}>
           </FooterComp>
         </View>
       </Container>

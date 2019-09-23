@@ -31,13 +31,14 @@ const AuthStack = createStackNavigator({
 
 const AppStack = createStackNavigator({
   Profile,
-  // Newsfeed,
-  // Profile,
+  Newsfeed,
+  Profile,
   // Interests,
   // Discussions
 },
 {
   defaultNavigationOptions: {
+    header:null
   },
   transitionConfig: getSlideFromRightTransition,
   cardStyle: {

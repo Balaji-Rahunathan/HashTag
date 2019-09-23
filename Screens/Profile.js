@@ -44,7 +44,7 @@ export default class Profile extends Component {
                 </ImageBackground>
                 <View style={css.footerView}>
                     <FooterComp name="GO BACK" 
-                                onPress={() => this.props.navigation.navigate("SignIn")}>
+                                onPress={() => this.props.navigation.navigate("Newsfeed")}>
                     </FooterComp>
                 </View>
             </Container>
