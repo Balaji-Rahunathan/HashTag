@@ -1,4 +1,4 @@
-package com.tamilnews;
+package com.brownbutton.hashtag;
 
 import android.app.Application;
 import android.util.Log;

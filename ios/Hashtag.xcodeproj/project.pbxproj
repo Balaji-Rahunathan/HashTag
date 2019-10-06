@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* TamilNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TamilNewsTests.m */; };
+		00E356F31AD99517003FC87E /* HashtagTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* HashtagTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		16C24C51F43543ED8E6EAF0E /* SF-Pro-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 006ED84E6E71434E946184BA /* SF-Pro-Display-Medium.otf */; };
 		1FA4B8F1D71B44AEAFF1C945 /* SF-Pro-Display-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D66B08527AD441D6B4EA1BAD /* SF-Pro-Display-LightItalic.otf */; };
-		26636E09C35B09C760B74319 /* libPods-TamilNewsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 166EA76D3422ADFACD9882E6 /* libPods-TamilNewsTests.a */; };
+		26636E09C35B09C760B74319 /* libPods-HashtagTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 166EA76D3422ADFACD9882E6 /* libPods-HashtagTests.a */; };
 		27A99B2E3DA547E4876C4771 /* SF-Pro-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1E8011D2D82D475CB66DCF6E /* SF-Pro-Display-Light.otf */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* TamilNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TamilNewsTests.m */; };
-		31B5D6136F6ABA5BB7DD366E /* libPods-TamilNews-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 870D2750B2D270485EB980DF /* libPods-TamilNews-tvOSTests.a */; };
-		4C0FA1ED77AC3A90BDF283B8 /* libPods-TamilNews-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 226EBF18E6051F848ED3CC00 /* libPods-TamilNews-tvOS.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* HashtagTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* HashtagTests.m */; };
+		31B5D6136F6ABA5BB7DD366E /* libPods-Hashtag-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 870D2750B2D270485EB980DF /* libPods-Hashtag-tvOSTests.a */; };
+		4C0FA1ED77AC3A90BDF283B8 /* libPods-Hashtag-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 226EBF18E6051F848ED3CC00 /* libPods-Hashtag-tvOS.a */; };
 		4E31FE85B7FE4104863D2310 /* SF-Pro-Display-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1DD72EB57E894D22BA0B2F9D /* SF-Pro-Display-BoldItalic.otf */; };
 		52F7F99DDB1747B5AE8F7E30 /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8F316E791ED64546A6A91C43 /* SF-Pro-Display-Bold.otf */; };
 		74A64D17CB8C40B1A7C6C5AC /* SF-Pro-Display-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 74FFEC8CC4B94CCFB9D525F5 /* SF-Pro-Display-MediumItalic.otf */; };
 		7C682C1D8FA24AF399018A74 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 821B5A8DC862428FA9B3D026 /* SF-Pro-Display-Regular.otf */; };
 		7CB51FB7A5DC4BA5A49BEFAB /* SF-Pro-Display-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7E0086EFCD18423AA481315F /* SF-Pro-Display-Ultralight.otf */; };
-		949E75310AF8C07493F4E720 /* libPods-TamilNews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D86025A3385FEB69A4973642 /* libPods-TamilNews.a */; };
+		949E75310AF8C07493F4E720 /* libPods-Hashtag.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D86025A3385FEB69A4973642 /* libPods-Hashtag.a */; };
 		96EAE8413F8A42E2A2EB02CC /* SF-Pro-Display-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = B1DDEBFEA9CD41DE9AD579B0 /* SF-Pro-Display-Heavy.otf */; };
 		99A1603D36874702BA3CF694 /* SF-Pro-Display-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = CCFBEE222DDF4885B6E64FE8 /* SF-Pro-Display-RegularItalic.otf */; };
 		9FC8CF79B8D541AD9AAD5346 /* SF-Pro-Display-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8DCFDB6507E34CC59E3245A3 /* SF-Pro-Display-BlackItalic.otf */; };
@@ -46,60 +46,60 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = TamilNews;
+			remoteInfo = Hashtag;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "TamilNews-tvOS";
+			remoteInfo = "Hashtag-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		006ED84E6E71434E946184BA /* SF-Pro-Display-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Medium.otf"; path = "../assets/fonts/SF-Pro-Display-Medium.otf"; sourceTree = "<group>"; };
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* TamilNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TamilNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* HashtagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HashtagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* TamilNewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TamilNewsTests.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* HashtagTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HashtagTests.m; sourceTree = "<group>"; };
 		0809AFF5FCE54D3F804D74CB /* SF-Pro-Display-SemiboldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-SemiboldItalic.otf"; path = "../assets/fonts/SF-Pro-Display-SemiboldItalic.otf"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* TamilNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TamilNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = TamilNews/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = TamilNews/AppDelegate.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Hashtag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hashtag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Hashtag/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Hashtag/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = TamilNews/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TamilNews/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TamilNews/main.m; sourceTree = "<group>"; };
-		166EA76D3422ADFACD9882E6 /* libPods-TamilNewsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TamilNewsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Hashtag/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Hashtag/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Hashtag/main.m; sourceTree = "<group>"; };
+		166EA76D3422ADFACD9882E6 /* libPods-HashtagTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HashtagTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD72EB57E894D22BA0B2F9D /* SF-Pro-Display-BoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-BoldItalic.otf"; path = "../assets/fonts/SF-Pro-Display-BoldItalic.otf"; sourceTree = "<group>"; };
 		1E8011D2D82D475CB66DCF6E /* SF-Pro-Display-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Light.otf"; path = "../assets/fonts/SF-Pro-Display-Light.otf"; sourceTree = "<group>"; };
-		226EBF18E6051F848ED3CC00 /* libPods-TamilNews-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TamilNews-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		252DD9486688D9E2DBD24F07 /* Pods-TamilNews-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TamilNews-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TamilNews-tvOSTests/Pods-TamilNews-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* TamilNews-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TamilNews-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* TamilNews-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TamilNews-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		31D62AF1BE368989CD6F5815 /* Pods-TamilNews-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TamilNews-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-TamilNews-tvOS/Pods-TamilNews-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		226EBF18E6051F848ED3CC00 /* libPods-Hashtag-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Hashtag-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		252DD9486688D9E2DBD24F07 /* Pods-Hashtag-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hashtag-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hashtag-tvOSTests/Pods-Hashtag-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* Hashtag-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hashtag-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* Hashtag-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hashtag-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31D62AF1BE368989CD6F5815 /* Pods-Hashtag-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hashtag-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hashtag-tvOS/Pods-Hashtag-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		4047C2F2B31544D793A074E9 /* SF-Pro-Display-HeavyItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-HeavyItalic.otf"; path = "../assets/fonts/SF-Pro-Display-HeavyItalic.otf"; sourceTree = "<group>"; };
-		46C1AACAB6825855308071FC /* Pods-TamilNews-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TamilNews-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TamilNews-tvOSTests/Pods-TamilNews-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		46C1AACAB6825855308071FC /* Pods-Hashtag-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hashtag-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hashtag-tvOSTests/Pods-Hashtag-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		50911FDBE0DF42DD8261FABB /* SF-Pro-Display-UltralightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-UltralightItalic.otf"; path = "../assets/fonts/SF-Pro-Display-UltralightItalic.otf"; sourceTree = "<group>"; };
-		637D3C1FF1800EB8CA12DD72 /* Pods-TamilNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TamilNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-TamilNews/Pods-TamilNews.release.xcconfig"; sourceTree = "<group>"; };
+		637D3C1FF1800EB8CA12DD72 /* Pods-Hashtag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hashtag.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hashtag/Pods-Hashtag.release.xcconfig"; sourceTree = "<group>"; };
 		64E0BB0AD8554E3CB0F04363 /* SF-Pro-Display-Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Thin.otf"; path = "../assets/fonts/SF-Pro-Display-Thin.otf"; sourceTree = "<group>"; };
 		74FFEC8CC4B94CCFB9D525F5 /* SF-Pro-Display-MediumItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-MediumItalic.otf"; path = "../assets/fonts/SF-Pro-Display-MediumItalic.otf"; sourceTree = "<group>"; };
 		7E0086EFCD18423AA481315F /* SF-Pro-Display-Ultralight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Ultralight.otf"; path = "../assets/fonts/SF-Pro-Display-Ultralight.otf"; sourceTree = "<group>"; };
-		80366DFC2837928A1A3FBDD2 /* Pods-TamilNews-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TamilNews-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TamilNews-tvOS/Pods-TamilNews-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		80366DFC2837928A1A3FBDD2 /* Pods-Hashtag-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hashtag-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hashtag-tvOS/Pods-Hashtag-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		821B5A8DC862428FA9B3D026 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Regular.otf"; path = "../assets/fonts/SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
-		870D2750B2D270485EB980DF /* libPods-TamilNews-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TamilNews-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		870D2750B2D270485EB980DF /* libPods-Hashtag-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Hashtag-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DCFDB6507E34CC59E3245A3 /* SF-Pro-Display-BlackItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-BlackItalic.otf"; path = "../assets/fonts/SF-Pro-Display-BlackItalic.otf"; sourceTree = "<group>"; };
 		8F316E791ED64546A6A91C43 /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Bold.otf"; path = "../assets/fonts/SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
-		94543AEB3B510542A36DA6BE /* Pods-TamilNewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TamilNewsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TamilNewsTests/Pods-TamilNewsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		94543AEB3B510542A36DA6BE /* Pods-HashtagTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HashtagTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HashtagTests/Pods-HashtagTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A71260A3B86B4E30833DDDC2 /* SF-Pro-Display-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Black.otf"; path = "../assets/fonts/SF-Pro-Display-Black.otf"; sourceTree = "<group>"; };
 		B1DDEBFEA9CD41DE9AD579B0 /* SF-Pro-Display-Heavy.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Heavy.otf"; path = "../assets/fonts/SF-Pro-Display-Heavy.otf"; sourceTree = "<group>"; };
-		C431902EC7AA3EA31BA3B05C /* Pods-TamilNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TamilNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TamilNews/Pods-TamilNews.debug.xcconfig"; sourceTree = "<group>"; };
+		C431902EC7AA3EA31BA3B05C /* Pods-Hashtag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hashtag.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hashtag/Pods-Hashtag.debug.xcconfig"; sourceTree = "<group>"; };
 		CCFBEE222DDF4885B6E64FE8 /* SF-Pro-Display-RegularItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-RegularItalic.otf"; path = "../assets/fonts/SF-Pro-Display-RegularItalic.otf"; sourceTree = "<group>"; };
 		D42EA64C8A904497AFC36327 /* SF-Pro-Display-ThinItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-ThinItalic.otf"; path = "../assets/fonts/SF-Pro-Display-ThinItalic.otf"; sourceTree = "<group>"; };
 		D66B08527AD441D6B4EA1BAD /* SF-Pro-Display-LightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-LightItalic.otf"; path = "../assets/fonts/SF-Pro-Display-LightItalic.otf"; sourceTree = "<group>"; };
-		D86025A3385FEB69A4973642 /* libPods-TamilNews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TamilNews.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EBDB6CC607DC3D97BB731A2F /* Pods-TamilNewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TamilNewsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TamilNewsTests/Pods-TamilNewsTests.release.xcconfig"; sourceTree = "<group>"; };
+		D86025A3385FEB69A4973642 /* libPods-Hashtag.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Hashtag.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBDB6CC607DC3D97BB731A2F /* Pods-HashtagTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HashtagTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HashtagTests/Pods-HashtagTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		FEBA5CD57C1145CEA1EC30CC /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Display-Semibold.otf"; path = "../assets/fonts/SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
@@ -110,7 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26636E09C35B09C760B74319 /* libPods-TamilNewsTests.a in Frameworks */,
+				26636E09C35B09C760B74319 /* libPods-HashtagTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,7 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				949E75310AF8C07493F4E720 /* libPods-TamilNews.a in Frameworks */,
+				949E75310AF8C07493F4E720 /* libPods-Hashtag.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,7 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C0FA1ED77AC3A90BDF283B8 /* libPods-TamilNews-tvOS.a in Frameworks */,
+				4C0FA1ED77AC3A90BDF283B8 /* libPods-Hashtag-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,20 +134,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31B5D6136F6ABA5BB7DD366E /* libPods-TamilNews-tvOSTests.a in Frameworks */,
+				31B5D6136F6ABA5BB7DD366E /* libPods-Hashtag-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* TamilNewsTests */ = {
+		00E356EF1AD99517003FC87E /* HashtagTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* TamilNewsTests.m */,
+				00E356F21AD99517003FC87E /* HashtagTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = TamilNewsTests;
+			path = HashtagTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -158,7 +158,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* TamilNews */ = {
+		13B07FAE1A68108700A75B9A /* Hashtag */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -169,7 +169,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = TamilNews;
+			name = Hashtag;
 			sourceTree = "<group>";
 		};
 		280746C4ABA44EDBB1280357 /* Resources */ = {
@@ -202,10 +202,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				D86025A3385FEB69A4973642 /* libPods-TamilNews.a */,
-				226EBF18E6051F848ED3CC00 /* libPods-TamilNews-tvOS.a */,
-				870D2750B2D270485EB980DF /* libPods-TamilNews-tvOSTests.a */,
-				166EA76D3422ADFACD9882E6 /* libPods-TamilNewsTests.a */,
+				D86025A3385FEB69A4973642 /* libPods-Hashtag.a */,
+				226EBF18E6051F848ED3CC00 /* libPods-Hashtag-tvOS.a */,
+				870D2750B2D270485EB980DF /* libPods-Hashtag-tvOSTests.a */,
+				166EA76D3422ADFACD9882E6 /* libPods-HashtagTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -220,9 +220,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* TamilNews */,
+				13B07FAE1A68108700A75B9A /* Hashtag */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* TamilNewsTests */,
+				00E356EF1AD99517003FC87E /* HashtagTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				9AF10D3545541C8E6CCE8854 /* Pods */,
@@ -236,10 +236,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* TamilNews.app */,
-				00E356EE1AD99517003FC87E /* TamilNewsTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* TamilNews-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* TamilNews-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* Hashtag.app */,
+				00E356EE1AD99517003FC87E /* HashtagTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* Hashtag-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* Hashtag-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -247,14 +247,14 @@
 		9AF10D3545541C8E6CCE8854 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C431902EC7AA3EA31BA3B05C /* Pods-TamilNews.debug.xcconfig */,
-				637D3C1FF1800EB8CA12DD72 /* Pods-TamilNews.release.xcconfig */,
-				80366DFC2837928A1A3FBDD2 /* Pods-TamilNews-tvOS.debug.xcconfig */,
-				31D62AF1BE368989CD6F5815 /* Pods-TamilNews-tvOS.release.xcconfig */,
-				252DD9486688D9E2DBD24F07 /* Pods-TamilNews-tvOSTests.debug.xcconfig */,
-				46C1AACAB6825855308071FC /* Pods-TamilNews-tvOSTests.release.xcconfig */,
-				94543AEB3B510542A36DA6BE /* Pods-TamilNewsTests.debug.xcconfig */,
-				EBDB6CC607DC3D97BB731A2F /* Pods-TamilNewsTests.release.xcconfig */,
+				C431902EC7AA3EA31BA3B05C /* Pods-Hashtag.debug.xcconfig */,
+				637D3C1FF1800EB8CA12DD72 /* Pods-Hashtag.release.xcconfig */,
+				80366DFC2837928A1A3FBDD2 /* Pods-Hashtag-tvOS.debug.xcconfig */,
+				31D62AF1BE368989CD6F5815 /* Pods-Hashtag-tvOS.release.xcconfig */,
+				252DD9486688D9E2DBD24F07 /* Pods-Hashtag-tvOSTests.debug.xcconfig */,
+				46C1AACAB6825855308071FC /* Pods-Hashtag-tvOSTests.release.xcconfig */,
+				94543AEB3B510542A36DA6BE /* Pods-HashtagTests.debug.xcconfig */,
+				EBDB6CC607DC3D97BB731A2F /* Pods-HashtagTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -262,9 +262,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* TamilNewsTests */ = {
+		00E356ED1AD99517003FC87E /* HashtagTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "TamilNewsTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "HashtagTests" */;
 			buildPhases = (
 				D69B04E5D7DAA0D8DEB25C3F /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -276,14 +276,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = TamilNewsTests;
-			productName = TamilNewsTests;
-			productReference = 00E356EE1AD99517003FC87E /* TamilNewsTests.xctest */;
+			name = HashtagTests;
+			productName = HashtagTests;
+			productReference = 00E356EE1AD99517003FC87E /* HashtagTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* TamilNews */ = {
+		13B07F861A680F5B00A75B9A /* Hashtag */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "TamilNews" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Hashtag" */;
 			buildPhases = (
 				C8AD07D1377CE4CA9CD5B050 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -296,14 +296,14 @@
 			);
 			dependencies = (
 			);
-			name = TamilNews;
-			productName = TamilNews;
-			productReference = 13B07F961A680F5B00A75B9A /* TamilNews.app */;
+			name = Hashtag;
+			productName = Hashtag;
+			productReference = 13B07F961A680F5B00A75B9A /* Hashtag.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* TamilNews-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* Hashtag-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "TamilNews-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Hashtag-tvOS" */;
 			buildPhases = (
 				0150850D41A805666E2B9E1D /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -316,14 +316,14 @@
 			);
 			dependencies = (
 			);
-			name = "TamilNews-tvOS";
-			productName = "TamilNews-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* TamilNews-tvOS.app */;
+			name = "Hashtag-tvOS";
+			productName = "Hashtag-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* Hashtag-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* TamilNews-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* Hashtag-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "TamilNews-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Hashtag-tvOSTests" */;
 			buildPhases = (
 				52FB654A6A9968BE5DBA1C69 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -335,9 +335,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "TamilNews-tvOSTests";
-			productName = "TamilNews-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* TamilNews-tvOSTests.xctest */;
+			name = "Hashtag-tvOSTests";
+			productName = "Hashtag-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* Hashtag-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -372,7 +372,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "TamilNews" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Hashtag" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -386,10 +386,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* TamilNews */,
-				00E356ED1AD99517003FC87E /* TamilNewsTests */,
-				2D02E47A1E0B4A5D006451C7 /* TamilNews-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* TamilNews-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* Hashtag */,
+				00E356ED1AD99517003FC87E /* HashtagTests */,
+				2D02E47A1E0B4A5D006451C7 /* Hashtag-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* Hashtag-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -472,7 +472,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TamilNews-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Hashtag-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -504,7 +504,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TamilNews-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Hashtag-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -522,7 +522,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TamilNews-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Hashtag-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -540,7 +540,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TamilNewsTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-HashtagTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -584,7 +584,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* TamilNewsTests.m in Sources */,
+				00E356F31AD99517003FC87E /* HashtagTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,7 +610,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* TamilNewsTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* HashtagTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -619,12 +619,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* TamilNews */;
+			target = 13B07F861A680F5B00A75B9A /* Hashtag */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* TamilNews-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* Hashtag-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -636,7 +636,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = TamilNews;
+			path = Hashtag;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -644,14 +644,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94543AEB3B510542A36DA6BE /* Pods-TamilNewsTests.debug.xcconfig */;
+			baseConfigurationReference = 94543AEB3B510542A36DA6BE /* Pods-HashtagTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = TamilNewsTests/Info.plist;
+				INFOPLIST_FILE = HashtagTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -661,17 +661,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TamilNews.app/TamilNews";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hashtag.app/Hashtag";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EBDB6CC607DC3D97BB731A2F /* Pods-TamilNewsTests.release.xcconfig */;
+			baseConfigurationReference = EBDB6CC607DC3D97BB731A2F /* Pods-HashtagTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = TamilNewsTests/Info.plist;
+				INFOPLIST_FILE = HashtagTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -681,54 +681,54 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TamilNews.app/TamilNews";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hashtag.app/Hashtag";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C431902EC7AA3EA31BA3B05C /* Pods-TamilNews.debug.xcconfig */;
+			baseConfigurationReference = C431902EC7AA3EA31BA3B05C /* Pods-Hashtag.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = 7UZX67X32S;
-				INFOPLIST_FILE = TamilNews/Info.plist;
+				INFOPLIST_FILE = Hashtag/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = TamilNews;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Brownbutton.Hashtag;
+				PRODUCT_NAME = Hashtag;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 637D3C1FF1800EB8CA12DD72 /* Pods-TamilNews.release.xcconfig */;
+			baseConfigurationReference = 637D3C1FF1800EB8CA12DD72 /* Pods-Hashtag.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7UZX67X32S;
-				INFOPLIST_FILE = TamilNews/Info.plist;
+				INFOPLIST_FILE = Hashtag/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = TamilNews;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Brownbutton.Hashtag;
+				PRODUCT_NAME = Hashtag;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80366DFC2837928A1A3FBDD2 /* Pods-TamilNews-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 80366DFC2837928A1A3FBDD2 /* Pods-Hashtag-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -739,14 +739,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "TamilNews-tvOS/Info.plist";
+				INFOPLIST_FILE = "Hashtag-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.TamilNews-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Hashtag-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -756,7 +756,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31D62AF1BE368989CD6F5815 /* Pods-TamilNews-tvOS.release.xcconfig */;
+			baseConfigurationReference = 31D62AF1BE368989CD6F5815 /* Pods-Hashtag-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -767,14 +767,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "TamilNews-tvOS/Info.plist";
+				INFOPLIST_FILE = "Hashtag-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.TamilNews-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Hashtag-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -784,7 +784,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 252DD9486688D9E2DBD24F07 /* Pods-TamilNews-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 252DD9486688D9E2DBD24F07 /* Pods-Hashtag-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -794,24 +794,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "TamilNews-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "Hashtag-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.TamilNews-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Hashtag-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TamilNews-tvOS.app/TamilNews-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hashtag-tvOS.app/Hashtag-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46C1AACAB6825855308071FC /* Pods-TamilNews-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 46C1AACAB6825855308071FC /* Pods-Hashtag-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -821,17 +821,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "TamilNews-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "Hashtag-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.TamilNews-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Hashtag-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TamilNews-tvOS.app/TamilNews-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hashtag-tvOS.app/Hashtag-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -938,7 +938,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "TamilNewsTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "HashtagTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -947,7 +947,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "TamilNews" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Hashtag" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -956,7 +956,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "TamilNews-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Hashtag-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -965,7 +965,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "TamilNews-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Hashtag-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -974,7 +974,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "TamilNews" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Hashtag" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

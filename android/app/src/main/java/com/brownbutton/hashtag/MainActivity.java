@@ -1,4 +1,4 @@
-package com.tamilnews;
+package com.brownbutton.hashtag;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "TamilNews";
+        return "Hashtag";
     }
 }

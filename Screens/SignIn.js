@@ -20,6 +20,9 @@ export default class SignIn extends Component {
     title: 'Default Header'
   }
 
+  sampleFunction(){
+    
+  }
 
   render() {
     return (

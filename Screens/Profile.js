@@ -14,6 +14,7 @@ export default class Profile extends Component {
         headerTransparent: true,
         headerRight: null
     })
+
     render() {
         return (
             <Container styles={css.container}>
