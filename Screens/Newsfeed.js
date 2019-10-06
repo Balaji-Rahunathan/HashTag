@@ -37,7 +37,7 @@ export default class Newsfeed extends Component {
                         <Text style={{color:"white",fontSize:22,fontWeight:"bold"}} >123</Text>
                         <Text style={{color:"#5A5C69",fontSize:20}} >Discussions</Text>
                     </View>
-                    <TouchableOpacity onPress={()=>this.props.navigation.navigate('Profile')} style={{flexDirection:"row",alignItems:"flex-start"}}>
+                    <TouchableOpacity onPress={()=>this.props.navigation.navigate('Discussions')} style={{flexDirection:"row",alignItems:"flex-start"}}>
                         <Text style={{color:"white",fontSize:20,marginTop:6}} >Read More  </Text>
                         <Image style={{width:40,height:40}} source={require("../assets/icons/ReadMore.png")}/>
                     </TouchableOpacity>

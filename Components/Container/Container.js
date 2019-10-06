@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import {View,StatusBar,Keyboard,Platform,DeviceInfo,StyleSheet,ActivityIndicator} from 'react-native';
+import {View,StatusBar,Keyboard,Platform,DeviceInfo,StyleSheet,ActivityIndicator,SafeAreaView} from 'react-native';
 import { TouchableWithoutFeedback } from 'react-native-gesture-handler';
 import {Height, Width} from '../Constants/Constants';
 import Loading from '../Loading';

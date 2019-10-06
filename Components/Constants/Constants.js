@@ -7,3 +7,4 @@ export const Height = Dimensions.get("window").height
 
 //Colors
 export const background = '#1D1D27'
+export const subTitle = '#D8D8D8'
