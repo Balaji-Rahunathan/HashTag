@@ -30,11 +30,11 @@ const AuthStack = createStackNavigator({
 })
 
 const AppStack = createStackNavigator({
+  Discussions,
   Profile,
   Newsfeed,
   Profile,
   // Interests,
-  Discussions
 },
 {
   defaultNavigationOptions: {
