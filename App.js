@@ -34,7 +34,6 @@ const AppStack = createStackNavigator({
   Profile,
   Newsfeed,
   Profile,
-  // Interests,
 },
 {
   defaultNavigationOptions: {
