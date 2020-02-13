@@ -32,7 +32,7 @@ const AuthStack = createStackNavigator({
 const AppStack = createStackNavigator({
   Discussions,
  
-  Newsfeed,
+
   Interests,
 },
 {
