@@ -49,7 +49,7 @@ export default createAppContainer(createSwitchNavigator(
   {
     Splash:Splash,
     Auth:AuthStack,
-    App:AppStack
+
   },
   {
     initialRouteName: 'Splash',
