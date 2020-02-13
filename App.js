@@ -32,9 +32,6 @@ const AuthStack = createStackNavigator({
 const AppStack = createStackNavigator({
   Discussions,
   Profile,
-  Newsfeed,
-  Newsfeed,
-  Profile,
   Interests,
 },
 {
