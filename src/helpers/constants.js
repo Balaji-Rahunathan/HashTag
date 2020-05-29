@@ -1,7 +1,6 @@
 import { Dimensions, AsyncStorage, Text, Platform } from 'react-native';
 import { showMessage } from 'react-native-flash-message';
 
-
 export const Width = Dimensions.get("window").width
 export const Height = Dimensions.get("window").height
 

@@ -20,8 +20,8 @@ export default class App extends Component {
   render() {
     HomeStack = () =>
       <Stack.Navigator screenOptions={{ headerShown: false, }}>
-        <Stack.Screen name="Test" component={Test} />
         <Stack.Screen name="Sample" component={Sample} />
+        <Stack.Screen name="Test" component={Test} />
       </Stack.Navigator>
     return (
       <NavigationContainer>
