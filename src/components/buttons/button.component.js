@@ -1,36 +1,53 @@
-import React, { Component } from 'react';
-import { Text, View, StyleSheet } from 'react-native';
-import { Width, height } from '../../helpers/constants';
+import PropTypes from 'prop-types';
+import React from "react";
+import { View, Text, Image, TouchableOpacity, StyleSheet, ActivityIndicator } from 'react-native';
+import { Theme, Light } from '../../helpers/theme';
 
-export default  class Button extends Component {
-    render() {
-        return (
-            <View style={css.container}>
-                <View style={css.buttonView}>
-        <Text style={css.button}>{this.props.name}</Text>
-                </View>
+const Button = (props) => {
+    const { styles, onPress, buttonText, activity, disabled } = props
+    return (
+        <TouchableOpacity
+            onPress={onPress}
+            disabled={activity}
+            style={css.container}>
+            <View style={[css.icon, styles]}
+                {...props}>
+                {!activity ? <Text style={[css.text, styles]}>{buttonText}</Text> :
+                    <ActivityIndicator size="small" color={Light} />}
             </View>
-        )
-    }
-}
+        </TouchableOpacity>
+    );
+};
+
+Button.propTypes = {
+    styles: PropTypes.any,
+    onPress: PropTypes.func,
+    buttonText: PropTypes.any,
+    activity: PropTypes.bool,
+    activity: PropTypes.bool,
+};
 
 const css = StyleSheet.create({
     container: {
-        flex: 1,
+        alignItems: "center",
         justifyContent: 'center',
-        alignItems: 'center',
+        width: "100%",
+        height: 60,
     },
-    buttonView: {
+    icon: {
         justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: 'white',
-        height: Width * 0.14,
-        width: Width * 0.85,
-        borderRadius: 35,
+        alignItems: "center",
+        width: "70%",
+        height: 50,
+        borderRadius: 10,
+        backgroundColor: Theme
     },
-    button: {
-        fontSize: 23,
-        color: 'blue',
+    text: {
+        fontSize: 14,
+        color: Light,
         fontWeight: 'bold',
+        fontFamily: 'Roboto-Medium'
     }
-})
+});
+
+export default Button;
